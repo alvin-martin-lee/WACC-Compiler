@@ -1,0 +1,23 @@
+#!/bin/bash
+
+WACC_CP=build/classes/kotlin/main\
+:build/classes/java/main\
+:lib/kotlin-stdlib.jar\
+:lib/kotlin-reflect.jar\
+:lib/kotlin-test.jar\
+:lib/kotlin-stdlib-jdk7.jar\
+:lib/kotlin-stdlib-jdk8.jar\
+:lib/antlr-4.7-complete.jar\
+:lib/guava-27.1-jre.jar
+
+WACC_MAIN=WACCCompiler
+debug=false
+
+if [ "$debug" = true ]; then
+    # enable assertions if debugging locally
+    java -ea -cp $WACC_CP $WACC_MAIN $@
+else
+    java -cp $WACC_CP $WACC_MAIN $@
+fi
+
+exit $?

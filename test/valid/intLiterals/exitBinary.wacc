@@ -1,0 +1,13 @@
+# basic exit statement with binary int literal
+
+# Output:
+# #empty#
+
+# Exit:
+# 5
+
+# Program:
+
+begin
+  exit 0b101
+end

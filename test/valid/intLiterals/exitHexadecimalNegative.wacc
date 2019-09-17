@@ -1,0 +1,13 @@
+# basic exit statement with negative hexadecimal int literal
+
+# Output:
+# #empty#
+
+# Exit:
+# 239   ## (-17 wrapped around)
+
+# Program:
+
+begin
+  exit -0xF1
+end

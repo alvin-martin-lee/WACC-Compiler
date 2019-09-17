@@ -1,0 +1,39 @@
+# while loop with break
+
+# Output:
+# Can you count to 10?
+# Outer while loop 2
+# Inner while loop 1
+# Outer while loop 3
+# Inner while loop 2
+# Outer while loop 4
+# Inner while loop 3
+# Outer while loop 5
+# Inner while loop 4
+# Outer while loop 6
+# Outer while loop 7
+# Outer while loop 8
+# Outer while loop 9
+
+# Program:
+
+begin
+  int i = 1;
+  int j = 1;
+  while i < 10 do
+    while j < i do
+      print "Outer while loop ";
+      print i;
+      println " ";
+      if j > 4 then
+        break
+      else
+        print "Inner while loop ";
+        print j;
+        println " ";
+        j = j + 1
+      fi
+    done;
+    i = i + 1
+  done
+end

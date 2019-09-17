@@ -1,0 +1,13 @@
+# basic exit statement with bitwise AND statement
+
+# Output:
+# #empty#
+
+# Exit:
+# 220   ## (-36 wrapped around)
+
+# Program:
+
+begin
+  exit ~35     # Bitwise NOT of 35 is -36
+end

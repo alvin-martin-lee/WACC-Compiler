@@ -1,0 +1,32 @@
+# switch with fallthrough
+
+# Output:
+# Should print me
+# and me
+# and also me
+
+# Program:
+
+begin
+    int x = 1;
+    switch x where
+        case 0 do
+            println "Shouldnt print me";
+            break
+        esac
+        case 1 do
+            println "Should print me"
+        esac
+        case 2 do
+            println "and me"
+        esac
+        case 3 do
+            println "and also me";
+            break
+        esac
+        case 4 do
+            println "But not me";
+            break
+        esac
+    done
+end

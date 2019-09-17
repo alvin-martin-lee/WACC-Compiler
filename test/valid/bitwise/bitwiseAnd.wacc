@@ -1,0 +1,13 @@
+# basic exit statement with bitwise AND statement
+
+# Output:
+# #empty#
+
+# Exit:
+# 34
+
+# Program:
+
+begin
+  exit 35 & 122     # Bitwise AND of 35 and 122 is 34
+end

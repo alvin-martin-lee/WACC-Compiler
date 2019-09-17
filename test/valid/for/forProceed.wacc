@@ -1,0 +1,25 @@
+# for loop with proceed
+
+# Output:
+# 0
+# 1
+# 2
+# 3
+# 5
+# 6
+# 7
+# 8
+# 9
+
+# Program:
+
+begin
+  for (int i = 0; i < 10; i = i + 1) do
+    if i == 4 then
+      proceed
+    else
+      skip
+    fi;
+    println i
+  done
+end

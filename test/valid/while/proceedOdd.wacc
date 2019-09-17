@@ -1,0 +1,14 @@
+begin
+  int i = 1 ;
+  println "Can you count to 10 in odd numbers" ;
+  while i <= 10 do
+    if i % 2 == 0 then
+      i = i + 1;
+      proceed
+    else
+      skip
+    fi;
+    println i ;
+    i = i + 1
+  done
+end

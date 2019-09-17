@@ -1,0 +1,6 @@
+begin
+    bool x = "bcd" in "abcde"; # True
+    bool y = "xyz" in "abcde"; # False
+    println x;
+    println y
+end

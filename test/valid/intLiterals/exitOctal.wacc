@@ -1,0 +1,13 @@
+# basic exit statement with octal int literal
+
+# Output:
+# #empty#
+
+# Exit:
+# 15
+
+# Program:
+
+begin
+  exit 017
+end

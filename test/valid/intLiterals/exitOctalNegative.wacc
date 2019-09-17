@@ -1,0 +1,13 @@
+# basic exit statement with negative octal int literal
+
+# Output:
+# #empty#
+
+# Exit:
+# 241   ## (-15 wrapped around)
+
+# Program:
+
+begin
+  exit -017
+end

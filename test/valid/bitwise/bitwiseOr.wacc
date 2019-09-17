@@ -1,0 +1,13 @@
+# basic exit statement with bitwise OR statement
+
+# Output:
+# #empty#
+
+# Exit:
+# 123
+
+# Program:
+
+begin
+  exit 35 | 122     # Bitwise OR of 35 and 122 is 123
+end

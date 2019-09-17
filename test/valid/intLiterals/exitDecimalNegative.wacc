@@ -1,0 +1,13 @@
+# basic exit statement with negative decimal int literal
+
+# Output:
+# #empty#
+
+# Exit:
+# 222   ## (-34 wrapped around)
+
+# Program:
+
+begin
+  exit -34
+end

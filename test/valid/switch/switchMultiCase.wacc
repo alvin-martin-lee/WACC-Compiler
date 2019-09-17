@@ -1,0 +1,40 @@
+# switch with many cases
+
+# Output:
+# Found the number 5
+
+# Program:
+
+begin
+    int x = 5;
+    switch x where
+        case 0 do
+            println "Found the number 0";
+            break
+        esac
+        case 1 do
+            println "Found the number 1";
+            break
+        esac
+        case 2 do
+            println "Found the number 2";
+            break
+        esac
+        case 3 do
+            println "Found the number 3";
+            break
+        esac
+        case 4 do
+            println "Found the number 4";
+            break
+        esac
+        case 5 do
+            println "Found the number 5";
+            break
+        esac
+        case 6 do
+            println "Found the number 6";
+            break
+        esac
+    done
+end

@@ -1,0 +1,27 @@
+# do while loop that breaks at 5
+
+# Output:
+# Break at 5
+# 1
+# 2
+# 3
+# 4
+# 5
+
+# Program:
+
+begin
+  int i = 1 ;
+  println "Break at 5" ;
+  do
+    println i ;
+    if i >= 5 then
+      break
+    else
+      i = i + 1
+    fi
+  while
+    i <= 10
+  done
+end
+

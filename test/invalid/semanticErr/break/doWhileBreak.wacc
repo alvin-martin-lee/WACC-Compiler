@@ -1,0 +1,15 @@
+begin
+  int i = 1 ;
+  println "Break at 5" ;
+  break;
+  do
+    println i ;
+    if i >= 5 then
+      break
+    else
+      i = i + 1
+    fi
+  while
+    i <= 10
+  done
+end

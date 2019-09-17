@@ -1,0 +1,13 @@
+# basic exit statement with hexadecimal int literal
+
+# Output:
+# #empty#
+
+# Exit:
+# 17
+
+# Program:
+
+begin
+  exit 0xF1
+end

@@ -1,0 +1,13 @@
+# simple switch
+
+# Output:
+# #empty#
+
+# Program:
+
+begin
+    int x = 0;
+    switch x where
+        case 0 do skip esac
+    done
+end

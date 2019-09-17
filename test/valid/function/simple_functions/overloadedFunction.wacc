@@ -1,0 +1,11 @@
+begin
+  int f(int i) is
+    return i + 1
+  end
+  char f() is
+    return 'c'
+  end
+  int x = 0 ;
+  x = call f(x) ;
+  println x
+end

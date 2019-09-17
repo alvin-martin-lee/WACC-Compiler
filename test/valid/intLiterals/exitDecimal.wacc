@@ -1,0 +1,13 @@
+# basic exit statement with decimal int literal
+
+# Output:
+# #empty#
+
+# Exit:
+# 34
+
+# Program:
+
+begin
+  exit 34
+end
